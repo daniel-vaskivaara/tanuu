@@ -79,7 +79,7 @@ spec:
       - name: argo-source
         path: /tmp/git
         git:
-          repo: "https://github.com/tanuudemo/{{inputs.parameters.app_name}}.git"
+          repo: "https://github.com/{{inputs.parameters.repo_owner}}/{{inputs.parameters.app_name}}.git"
           revision: "main"
     container:
       image: python:alpine
