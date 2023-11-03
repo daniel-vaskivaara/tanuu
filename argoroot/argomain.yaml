@@ -15,8 +15,8 @@ spec:
       jsonnet: {}
       recurse: true
     path: setup/argo-applications
-    repoURL: https://github.com/tanuuidp/tanuu.git
-    targetRevision: main
+    repoURL: https://github.com/daniel-vaskivaara/tanuu.git
+    targetRevision: dev
   syncPolicy:
     automated:
       prune: true
