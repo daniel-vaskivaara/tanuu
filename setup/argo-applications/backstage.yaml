@@ -16,6 +16,4 @@ spec:
     repoURL: https://github.com/daniel-vaskivaara/tanuu.git
     targetRevision: dev
   syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
+    none: {}
