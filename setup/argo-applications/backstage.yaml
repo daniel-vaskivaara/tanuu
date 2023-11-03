@@ -12,8 +12,9 @@ spec:
       jsonnet: {}
       recurse: true
     path: setup/backstage
-    repoURL: https://github.com/tanuuidp/tanuu.git
-    targetRevision: HEAD
+    # repoURL: https://github.com/tanuuidp/tanuu.git
+    repoURL: https://github.com/daniel-vaskivaara/tanuu.git
+    targetRevision: dev
   syncPolicy:
     automated:
       prune: true
