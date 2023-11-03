@@ -15,4 +15,6 @@ spec:
     # repoURL: https://github.com/tanuuidp/tanuu.git
     repoURL: https://github.com/daniel-vaskivaara/tanuu.git
     targetRevision: dev
-  syncPolicy: {}
+  syncPolicy:
+    automated:
+      selfHeal: false
